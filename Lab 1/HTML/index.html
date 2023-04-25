@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+        <h1>The biggest header</h1>
+            <p>A paragraph of content which belong to the 3rd header. A paragraph usually contains one or more sentences</p>
+
+        <h2>The 2nd biggest header</h2>
+            <p>A paragraph of content which belong to the 3rd header. A paragraph usually contains one or more sentences</p>
+
+        <h3>The smaller header</h3>
+            <p>A paragraph of content which belong to the 3rd header. A paragraph usually contains one or more sentences</p>
+        
+        <!--Unordered list-->>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+        </ul>
+
+        
+        <a href="http://abc.com/music.mp3">Click here to download</a>
+
+        <img src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-1024.png" height="300" width="300"/>
+
+        <hr width="100%"/>
+
+        <table width="30%" border="1" cellpadding="5" cellspacing="5">
+            <tr>
+                <td>ID</td>
+                <td>Name</td> 
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Richard</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>John</td>
+            </tr>
+        </table>
+
+        <hr width="100%"/>
+
+        <!--Action attribute must be specified. 
+            It describes the destination should which recives and handles all information of the form after submission.
+            The destination file must be written in server script (php, python, c#, java…)
+            The last input which has type="submit" is required to send information.
+        -->
+        <form action="login.php">
+            First name:<br>
+            <input type="text" name="firstname" value="Mickey"> <br>
+            Last name: <br>
+            <input type="text" name="lastname" value="Mouse"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <hr width="100%"/>
+
+        <form action="action.php">
+            Select your favorite web browser <br>
+            <select>
+                <option value="0">Internet Explorer</option>
+                <option value="1">Firefox</option>
+                <option value="2">Chrome</option>
+                <option value="3">Opera</option>
+                <option value="4">Safari</option>
+            </select>
+            
+            <input type="submit">
+            
+        </form>
+
+    </body>
+</html>
